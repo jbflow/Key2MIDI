@@ -1,9 +1,9 @@
 # Key2MIDI
-A small Python application for converting keystrokes (a-h) into MIDI CC or Note messages and sending them into a designated MIDI port, this message can also be triggered by a button. I originally created to test some MIDI remote scripts I've been writing for Ableton Live, without needing to plug a controller or other software in it was much simpler to just use a simple python script to send MIDI over IAC, but it can also be used for mapping or testing just about anything to do with MIDI. 
+A small Python application for converting keystrokes (a-h) into MIDI CC or Note messages and sending them into a designated MIDI port, this message can also be triggered by a GUI button. I originally created this to test some MIDI remote scripts I've been writing for Ableton Live. It enables testing without needing to plug a MIDI controller in, using a simple python script over IAC instead. It can also be used for mapping or testing just about anything to do with MIDI. 
 
-I decided to build a GUI for it using tkinter, this was my first attempt at this to learn how to do it, as well as packaging pythong programs using py2app. There is a packaged .app file that's been test on Sierra and newer.
+I decided to build a GUI for it using tkinter, this was my first attempt at this to learn how to do the process, as well as packaging python programs using py2app. There is a packaged .app file that's been tested on Sierra and newer.
 
-At the moment it's macOS only but I will be making it compatible for Windows.
+At the moment it is macOS only but I will be making it compatible for Windows fairly soon.
 
 The python script requires rtmidi with "pip install python-rtmidi".
 
